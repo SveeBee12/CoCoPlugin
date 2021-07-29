@@ -1,0 +1,15 @@
+name: CoCoPlugin
+main: io.github.oyberntzen.cocoplugin.CoCoPlugin
+version: 1.0
+api-version: 1.17
+author: SveeBee12
+commands:
+   randomize:
+      description: This is a command that randomizes blocks in one area.
+      usage: /randomize [radius] [block1] [block2]...
+      permission: CoCoPlugin.randomize 
+      permission-message: You don't have a permission to do this command.
+permissions:
+    CoCoPlugin.randomize:
+        description: permission to randomize
+        default: op
